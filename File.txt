@@ -1,9 +1,13 @@
-git clone
-git checkout
-git status
+-git clone
+-git checkout
+-git status
 
 -git add
   . se agregara todo lo nuevo
   /path ruta especifica
 
 -git reset
+
+-git commit
+  - m //permite poner un mensaje con comillas
+  - a
