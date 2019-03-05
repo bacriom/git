@@ -1,3 +1,14 @@
 : git clone
 : git checkout
 : git status
+
+: git add
+	.
+	ruta
+: git reset
+	.
+	ruta
+	
+: git commit
+	- m // permite poner un mensaje con comillas
+	- a
