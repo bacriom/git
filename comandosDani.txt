@@ -9,8 +9,9 @@
   .
   ruta
 :git commit
- -m permite poner un mensaje con comillas
- -a (añade los archivos )
+ -m  permite poner un mensaje con comillas
+ -a  ejecuta un git add .
 :VIM
   -:wq guardar y salir
   -ctrl+i editar
+:git logg
