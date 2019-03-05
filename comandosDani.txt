@@ -1,0 +1,11 @@
+:git clone
+:git checkout
+  -b (crea una nueva rama)
+:git status (muestra los nuevos cambios, modificaciones sin que se hayan guardado los datos)
+:git add (agregar cmbios)
+  .(agrega todo)
+  ruta (agrega solo la ruta)
+:git reset
+  .
+  ruta
+:
