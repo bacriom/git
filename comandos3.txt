@@ -1,0 +1,13 @@
+git clone
+git status
+git checkout
+git add
+.
+ruta
+git reset
+.
+ruta
+git comit
+-m
+-a
+otro comando
