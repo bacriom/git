@@ -1,0 +1,10 @@
+: git clone
+: git checkout
+: git status
+
+: git add
+	. (Agregará a todos)
+	ruta
+: git reset
+	. (Agregará a todos)
+	rutagit 
