@@ -8,4 +8,9 @@
 :git reset
   .
   ruta
-:
+:git commit
+ -m permite poner un mensaje con comillas
+ -a (añade los archivos )
+:VIM
+  -:wq guardar y salir
+  -ctrl+i editar
