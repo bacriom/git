@@ -8,3 +8,7 @@
 : git reset
 	. (Agregará a todos)
 	rutagit 
+
+: git commit
+	- m //permite poner un mensaje con comillas
+	- a //ejecuta un git add .
