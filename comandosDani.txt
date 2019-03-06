@@ -43,3 +43,4 @@ commit 2
   --soft
   
 RESET 1
+RESET 2
