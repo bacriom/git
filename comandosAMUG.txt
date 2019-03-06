@@ -61,3 +61,5 @@ git revert - mete el commit anterior metiendo otro commit / el revert no quita i
 	--mixed
 	--soft
 
+RESERT 1
+
