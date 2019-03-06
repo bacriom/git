@@ -29,5 +29,6 @@ NO QUIERO PERDER ESTO PERO TENGO QUE MOVERME
    apply (para regresar los cambios)
    list 
    apply stash@{0}
+   save "nombre"
 
-NOMBRE STASH
+commit 1
