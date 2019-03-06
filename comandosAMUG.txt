@@ -56,8 +56,8 @@ git revert - mete el commit anterior metiendo otro commit / el revert no quita i
 : git revert
 	HEAD
 	-m 1 (quita los merge)
-: git resert
-	--hard
+: git reset //lO QUE HACE ES QUE VA A REESCRIBIR LA HISTORIA
+	--hard 	//se recommiendan no usarlo por que reescribe la historia en area commit y stage 
 	--mixed
 	--soft
 
@@ -68,6 +68,10 @@ RESET 2
 RESET 3
 
 QUIERO QUITARLO
+-> (Ejemplo)     -> git reset --hard HEAD~1
+
+: git cherry--pick hash
+
 
 
 
