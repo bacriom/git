@@ -33,3 +33,12 @@ NO QUIERO PERDER ESTO PERO TENGO QUE MOVERME
 
 commit 1
 commit 2
+
+:git revert
+ -HEAD 
+  -m 1 (para revertir marge)
+:git reset
+  --hard
+  --mixed
+  --soft
+  
