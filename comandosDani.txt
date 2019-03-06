@@ -38,10 +38,12 @@ commit 2
  -HEAD 
   -m 1 (para revertir marge)
 :git reset
-  --hard
+  --hard HEAD~1(# de comits a borrar)
   --mixed
   --soft
   
 RESET 1
 RESET 2
 RESET 3
+
+: git cherry --pick hash 
