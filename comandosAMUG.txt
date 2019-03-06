@@ -12,3 +12,24 @@
 : git commit
 	- m //permite poner un mensaje con comillas
 	- a //ejecuta un git add .
+
+: git log // nos muestra todos los commits
+: git log --onelinegit 
+
+: git push 
+	origin branch //Quiere decir el origen en el repositorio de git hub (en la nube)
+	-> si no esta la va a crear la rama en la nube y si existe va a agregar lo nuevo
+	origin dev (ejemplo
+)
+
+$ git config --global alias.co checkout
+
+$ git config --global alias.br branch
+
+$ git config --global alias.ci commit
+
+$ git config --global alias.st status
+
+$ git config --global alias.logline log --oneline
+
+git ci -a -m "alias"
