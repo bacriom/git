@@ -42,3 +42,4 @@ commit 2
   --mixed
   --soft
   
+RESET 1
