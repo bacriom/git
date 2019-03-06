@@ -48,3 +48,16 @@ git stash
 comit 1
 
 comit 2
+
+comit 3
+
+git revert - mete el commit anterior metiendo otro commit / el revert no quita intermedios
+
+: git revert
+	HEAD
+	-m 1 (quita los merge)
+: git resert
+	--hard
+	--mixed
+	--soft
+
