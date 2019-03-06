@@ -33,3 +33,16 @@ $ git config --global alias.st status
 $ git config --global alias.logline log --oneline
 
 git ci -a -m "alias"
+
+ESTO NO LO QUIERO PERDER PERO TENGO QUE MOVERME
+
+TAMPOCO ESTO 
+CONFIGURACION
+ MORT
+
+git stash
+	list
+	apply
+	apply stash@{}
+
+comit 1
