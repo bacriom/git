@@ -1,0 +1,77 @@
+: git clone
+: git checkout
+: git status
+
+: git add
+	. (Agregará a todos)
+	ruta
+: git reset
+	. (Agregará a todos)
+	rutagit 
+
+: git commit
+	- m //permite poner un mensaje con comillas
+	- a //ejecuta un git add .
+
+: git log // nos muestra todos los commits
+: git log --onelinegit 
+
+: git push 
+	origin branch //Quiere decir el origen en el repositorio de git hub (en la nube)
+	-> si no esta la va a crear la rama en la nube y si existe va a agregar lo nuevo
+	origin dev (ejemplo
+)
+
+$ git config --global alias.co checkout
+
+$ git config --global alias.br branch
+
+$ git config --global alias.ci commit
+
+$ git config --global alias.st status
+
+$ git config --global alias.logline log --oneline
+
+git ci -a -m "alias"
+
+ESTO NO LO QUIERO PERDER PERO TENGO QUE MOVERME
+
+TAMPOCO ESTO 
+CONFIGURACION
+ MORT
+
+git stash
+	list
+	apply
+	apply stash@{}
+
+comit 1
+
+comit 2
+
+comit 3
+
+git revert - mete el commit anterior metiendo otro commit / el revert no quita intermedios
+
+: git revert
+	HEAD
+	-m 1 (quita los merge)
+: git reset //lO QUE HACE ES QUE VA A REESCRIBIR LA HISTORIA
+	--hard 	//se recommiendan no usarlo por que reescribe la historia en area commit y stage 
+	--mixed
+	--soft
+
+RESET 1
+
+RESET 2
+
+RESET 3
+
+QUIERO QUITARLO
+-> (Ejemplo)     -> git reset --hard HEAD~1
+
+: git cherry--pick hash
+
+
+
+
