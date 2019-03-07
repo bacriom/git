@@ -1,0 +1,49 @@
+:git clone
+:git checkout
+  -b (crea una nueva rama)
+:git status (muestra los nuevos cambios, modificaciones sin que se hayan guardado los datos)
+:git add (agregar cmbios)
+  .(agrega todo)
+  ruta (agrega solo la ruta)
+:git reset
+  .
+  ruta
+:git commit
+ -m  permite poner un mensaje con comillas
+ -a  ejecuta un git add .
+:VIM
+  -:wq guardar y salir
+  -ctrl+i editar
+:git log
+   --oneline
+:git push 
+   origin branch
+  git config --global alias.co checkout
+  git config --global alias.br branch
+  git config --global alias.ci commit
+  git config --global alias.st status
+  git config --global alias.logline log --oneline
+
+NO QUIERO PERDER ESTO PERO TENGO QUE MOVERME
+:git stash
+   apply (para regresar los cambios)
+   list 
+   apply stash@{0}
+   save "nombre"
+
+commit 1
+commit 2
+
+:git revert
+ -HEAD 
+  -m 1 (para revertir marge)
+:git reset
+  --hard HEAD~1(# de comits a borrar)
+  --mixed
+  --soft
+  
+RESET 1
+RESET 2
+RESET 3
+
+: git cherry --pick hash 
